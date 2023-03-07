@@ -11,4 +11,9 @@ public class HelloDocker {
         return "Hello Docker !!!";
     }
 
+    @GetMapping("/helloSpring")
+    public String helloSpring() {
+        return "Hello Spring !!!";
+    }
+
 }
